@@ -31,7 +31,7 @@ bypass-tun=10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12
 [Remote Proxy]
 香港 hkstd = http://2.27.173.79:11156/s/default/338f329a5aad576e0e13137317c89e85,udp=true,block-quic=true,fast-open=default,vmess-aead=default,skip-cert-verify=true,enabled=true,flexible-sni=false
 日本 jpsb5 = http://45.192.242.176:23365/s/default/78f0ea312630be555613445d5f13b1f2,parser-enabled = true,udp=true,block-quic=true,fast-open=default,vmess-aead=default,skip-cert-verify=true,enabled=true,flexible-sni=false
-日本 jpsb4 = http://45.192.196.254:33031/s/default/a5e9a1603ec7c4d84f8684e0df41f201,udp=true,block-quic=true,fast-open=default,vmess-aead=default,skip-cert-verify=true,enabled=true,flexible-sni=false
+
 
 [Remote Filter]
 香港节点=NameRegex, FilterKey="^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
